@@ -1,0 +1,200 @@
+html, body {
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container2 {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.block{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.row {
+    width: 50%;
+}
+.row1 {
+    width: 100%;
+}
+.flex-item {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+}
+textarea{
+    min-height: 10em;
+    max-height: 80vh;
+    resize: vertical;
+    outline: none;
+    width: 100%;
+    transition: 0.2s;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.butto3{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    font-size: 40px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: grabbing;
+}
+
+.b3{
+    background-color: white; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+}
+
+.button1 {
+    background-color: white; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: white; 
+    color: #4CAF50; 
+    border: 2px solid #4CAF50;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.text{
+    padding: 5px;
+    outline: none;
+    border: none;
+    width: 90%;
+}
+
+.input1{
+    border-bottom: 1px solid #ddd;
+}
+
+.input1:hover{
+    border-bottom: 4px solid #ddd;
+}
+
+i{
+    background-color: white; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+    transition: 0.2s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+i:hover{
+    background-color: #008CBA; 
+    color: white; 
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.input2{
+    border-bottom: 1px solid #ddd;
+}
+
+.input2:hover{
+    border-bottom: 4px solid #ddd;
+}
+
+.c1{
+    justify-content: space-around;
+}
+
+.c2{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.s1{
+    margin-bottom: 10px;
+}
+
+.b1{
+    padding: 10px;
+}
+
+.a2{
+    align-content: flex-end;
+}
+
+button{
+    font-family: 'Nunito', sans-serif;
+}

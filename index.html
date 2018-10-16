@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>WebText</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCuw9ft-49KpZOgD83OJQc459JbbYTT-Jw",
+    authDomain: "webtext-60cd7.firebaseapp.com",
+    databaseURL: "https://webtext-60cd7.firebaseio.com",
+    projectId: "webtext-60cd7",
+    storageBucket: "webtext-60cd7.appspot.com",
+    messagingSenderId: "364043708995"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+</head>
+    
+<body>
+    <script src="index.js"></script>
+    <div class="flex-container">
+        <main class="mdl-layout__content mdl-color--grey-100">
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+
+      <!-- Container for the demo -->
+      <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+          <div class="flex-container c1">
+        <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
+          <h2 class="text12">WebText Login</h2>
+        </div>
+          </div>
+        <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            <div class="flex-container c1 s1">
+          <input class="text input1" type="text" id="email" name="email" placeholder="Email"/>
+            <br/><br/>
+            </div>
+            <div class="flex-container c1 s1">
+          <input class="text input2" type="password" id="password" name="password" placeholder="Password"/>
+          <br/><br/>
+            </div>
+            <br/><br/>
+            <div class="flex-container c1">
+          <button class="button button1" id="quickstart-sign-in" name="signin">Sign In</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="button button2" id="quickstart-sign-up" name="signup">Sign Up</button>
+                </div>
+        </div>
+        </div>
+    </div>
+  </main>
+    </div>
+    
+    
+</body>
+    
+</html>
